@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counting Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Counting Calculator</h1>
+        <div class="input-container">
+            <label for="inputN">Masukkan n:</label>
+            <input type="text" id="inputN">
+        <label for="inputR">Masukkan r:</label>
+        <input type="text" id="inputR">
+    </div>
+    <div class="button-container">
+        <button onclick="calculate('factorial')">Faktorial</button>
+        <button onclick="calculate('permutation')">Permutasi</button>
+        <button onclick="calculate('combination')">Kombinasi</button>
+    </div>
+    <div class="result-area" id="resultArea"></div>
+    </div>
+    <script src="js.js"></script>
+</body>
+
+</html>
