@@ -6,10 +6,19 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: #fff; /* Warna latar belakang */
 }
 
 .container {
     text-align: center;
+}
+
+.calculator-panel {
+    background-color: #fff; /* Warna panel */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+    padding: 20px;
+    max-width: 400px;
 }
 
 .input-container {
@@ -17,18 +26,30 @@ body {
 }
 
 input[type="text"] {
-    padding: 5px;
+    padding: 10px;
     margin: 5px;
+    width: calc(50% - 20px);
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
 button {
     padding: 10px 20px;
     margin: 0 5px;
     cursor: pointer;
+    background-color: #000080; /* Warna tombol */
+    color: #fff; /* Warna teks tombol */
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #000080; /* Warna tombol saat dihover */
 }
 
 .result-area {
     margin-top: 20px;
     border: 1px solid #ccc;
     padding: 10px;
+    border-radius: 5px;
 }

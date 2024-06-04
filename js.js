@@ -4,11 +4,7 @@ function calculate(operation) {
     var resultArea = document.getElementById('resultArea');
     var result;
 
-    switch(operation) {
-        case 'factorial':
-            result = factorial(inputN);
-            resultArea.innerText = "Faktorial dari " + inputN + " adalah: " + result;
-            break;
+    switch (operation) {
         case 'permutation':
             result = permutation(inputN, inputR);
             resultArea.innerText = "Permutasi P(" + inputN + ", " + inputR + ") adalah: " + result;

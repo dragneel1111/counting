@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -10,21 +10,23 @@
 
 <body>
     <div class="container">
-        <h1>Counting Calculator</h1>
-        <div class="input-container">
-            <label for="inputN">Masukkan n:</label>
-            <input type="text" id="inputN">
+        <div class="calculator-panel">
+            <h1>Kalkulator</h1>
+            <h2>Permutasi dan Kombinasi</h2>
+            <div class="input-container">
+                <label for="inputN">Masukkan n:</label>
+                <input type="text" id="inputN">
+            </div>
+            <div class="input-container">
+                <label for="inputR">Masukkan r:</label>
+                <input type="text" id="inputR">
+            </div>
+            <div class="button-container">
+                <button onclick="calculate('permutation')">Permutasi</button>
+                <button onclick="calculate('combination')">Kombinasi</button>
+            </div>
+            <div class="result-area" id="resultArea"></div>
         </div>
-        <div class="input-container">
-            <label for="inputR">Masukkan r:</label>
-            <input type="text" id="inputR">
-        </div>
-        <div class="button-container">
-            <button onclick="calculate('factorial')">Faktorial</button>
-            <button onclick="calculate('permutation')">Permutasi</button>
-            <button onclick="calculate('combination')">Kombinasi</button>
-        </div>
-        <div class="result-area" id="resultArea"></div>
     </div>
     <script src="js.js"></script>
 </body>
