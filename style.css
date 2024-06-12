@@ -37,14 +37,10 @@ button {
     padding: 10px 20px;
     margin: 0 5px;
     cursor: pointer;
-    background-color: #000080; /* Warna tombol */
+    background-color: #0095ff; /* Warna tombol */
     color: #fff; /* Warna teks tombol */
     border: none;
     border-radius: 5px;
-}
-
-button:hover {
-    background-color: #000080; /* Warna tombol saat dihover */
 }
 
 .result-area {
